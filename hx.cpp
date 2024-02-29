@@ -3,7 +3,7 @@
 
 HX711 scale;
 
-float calibration_factor = -134.512985;
+float calibration_factor = -139.944621;
 
 void initHX711(byte dataPin, byte clockPin) {
   logDebug("Initializing Force Sensor...");
