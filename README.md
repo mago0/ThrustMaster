@@ -26,7 +26,7 @@ Before running the test, verify the following settings in `config.h`:
 
 1. Power on the Arduino board.
 2. Press the button connected to `PIN_BTN` to initiate the countdown.
-3. Observe the LED and listen for the tone from the speaker (if enabled) during the countdown.
+3. Observe the LED and listen for the tone from the speaker (if enabled) during the countdown. Move AWAY from the motor! I know you know this ;-)
 4. The test will automatically start after the countdown, activating the pyrotechnic device and beginning data collection.
 5. Force measurements will be taken and stored in memory until the `TEST_DURATION` is reached or the maximum number of measurements (`maxMeasurements`) is collected.
 6. Upon test completion, the data will be written to the SD card with the filename specified in `DATA_FILENAME`, and the thrust profile data will be written to the file specified in `PROFILE_FILENAME`.
