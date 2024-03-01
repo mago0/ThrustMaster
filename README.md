@@ -46,13 +46,13 @@ After the test has finished, remove the SD card from the module and insert it in
 
 If the test does not start or there are issues with data logging, check the serial monitor for debug messages if `DEBUG` is defined in `config.h`. Ensure that the SD card is properly formatted and not write-protected.
 
-For further assistance, refer to the `motor-dynomometer.ino` sketch comments and the `logger.h` file for debugging procedures.
+For further assistance, refer to the `ThrustMaster.ino` sketch comments and the `logger.h` file for debugging procedures.
 
 ### Notes
 
 - The speaker functionality is disabled by default. To enable it, define `SPEAKER_ENABLE` in `config.h`.
-- The test procedure assumes that the `initSDCard()`, `initHX711()`, and other initialization functions are correctly implemented as per the `motor-dynomometer.ino` sketch.
-- The maximum number of measurements that can be stored is defined by `maxMeasurements` in the `motor-dynomometer.ino` sketch.
+- The test procedure assumes that the `initSDCard()`, `initHX711()`, and other initialization functions are correctly implemented as per the `ThrustMaster.ino` sketch.
+- The maximum number of measurements that can be stored is defined by `maxMeasurements` in the `ThrustMaster.ino` sketch.
 
 ### Parts
 
